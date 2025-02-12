@@ -1,0 +1,16 @@
+.container-board{
+    height: max(300px, 30dvh);
+    width: max(300px, 30dvw);
+    border: 1px solid rgb(236, 8, 198);
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+}
+
+
+.container-symbol{
+    border: 1px solid rgb(32, 9, 247);
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
